@@ -22,7 +22,7 @@ function Form(props) {
     <form onSubmit={handleSubmit}>
       <h2 className="label-wrapper">
         <label htmlFor="new-todo-input" className="label__lg">
-          Nimani qoshmoqchisiz?
+          What you want to add?
         </label>
       </h2>
 
@@ -36,7 +36,7 @@ function Form(props) {
         onChange={handleChange}
       />
       <button type="submit" className="btn btn__primary btn__lg">
-        Qoshish
+        Add
       </button>
     </form>
   );
